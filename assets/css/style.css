@@ -1676,3 +1676,7 @@ p.form-message.error {
   color: #eb3656;
   background-color: #fff;
 }
+
+#street-view {
+  margin: 0px;
+}
