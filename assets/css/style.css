@@ -996,6 +996,10 @@ p {
 /*===========================
       4.SERVICES css 
 ===========================*/
+#service {
+  padding-bottom: 0px;
+}
+
 @media (max-width: 767px) {
   .services-area {
     padding-top: 75px;
@@ -1450,6 +1454,10 @@ p.form-message.error {
 /*===========================
          9.MAP css 
 ===========================*/
+#street-view {
+  margin: 0px;
+}
+
 .map-area {
   position: relative;
   height: 600px;
@@ -1675,8 +1683,4 @@ p.form-message.error {
 .back-to-top:hover {
   color: #eb3656;
   background-color: #fff;
-}
-
-#street-view {
-  margin: 0px;
 }
