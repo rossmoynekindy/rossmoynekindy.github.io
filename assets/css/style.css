@@ -994,6 +994,82 @@ p {
 }
 
 /*===========================
+      Enrolment
+===========================*/
+
+/* Enrolment Section Basic Styling */
+.enrolment-area {
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+/* Enrolment Section Title */
+#enrolment .section-title .title {
+  color: #121619;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Enrolment Section Paragraphs */
+#enrolment .section-title p {
+  font-size: 17px;
+  color: #646464;
+  margin-bottom: 10px;
+}
+
+/* Enrolment Information Heading */
+#enrolment .enrolment-info h4 {
+  color: #eb3656;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Enrolment Information Unordered List */
+#enrolment .enrolment-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#enrolment .enrolment-info ul li {
+  font-size: 17px;
+  color: #646464;
+  margin-bottom: 10px;
+}
+
+/* Nested Ordered List within Unordered List Item */
+#enrolment .enrolment-info ul li ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  list-style-position: inside; /* This will help ensure the numbering is considered inside the list item for spacing */
+}
+
+#enrolment .enrolment-info ul li ol li {
+  font-size: 17px;
+  color: #646464;
+  margin-bottom: 5px;
+  padding-left: 10px; /* Increase the space between the number and the text */
+}
+
+/* Adjustments for smaller screens and devices */
+@media (max-width: 767px) {
+  .enrolment-area {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  #enrolment .section-title .title {
+    font-size: 24px;
+  }
+
+  #enrolment .enrolment-info h4 {
+    font-size: 22px;
+  }
+}
+
+
+
+/*===========================
       4.SERVICES css 
 ===========================*/
 #service {
